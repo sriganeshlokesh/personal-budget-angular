@@ -1,0 +1,29 @@
+$dark-blue-color: darken(#b4c6f0, 20%);
+
+section {
+  margin-top: 4rem;
+
+  h2 {
+    font-size: 50px;
+    color: $dark-blue-color;
+  }
+
+  p {
+    color: $dark-blue-color;
+    font-size: 20px;
+  }
+
+  a {
+    width: 10rem;
+    font-size: 25px;
+    padding: 15px;
+    color: #fff;
+    background-color: $dark-blue-color;
+
+    &:hover {
+      background-color: #fff;
+      color: darken(#b4c6f0, 50%);
+      box-shadow: $dark-blue-color 3px solid;
+    }
+  }
+}

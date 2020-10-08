@@ -1,0 +1,31 @@
+$text-dark: #515c95;
+
+.jumbotron {
+  background-color: #b4c6f0;
+  color: #fff;
+
+  h1 {
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 25px;
+    color: $text-dark;
+    margin-bottom: 2rem;
+  }
+
+  a {
+    width: 15rem;
+    height: 5rem;
+    padding-top: 21.5px;
+    font-size: 25px;
+    background-color: darken(#b4c6f0, 20%);
+    border: none;
+
+    &:hover {
+      background-color: #fff;
+      color: darken(#b4c6f0, 50%);
+      box-shadow: #b4c6f0 3px;
+    }
+  }
+}
